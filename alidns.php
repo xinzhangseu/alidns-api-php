@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']=="GET"){
   $request = $_GET;
 }
 if(is_array($request)&&count($request)<1){
-  Header("Location: //alidns-api.vercel.app/aliyun-ddns-api.html");
+  Header("Location: https://alidns-api.vercel.app/aliyun-ddns-api.html");
   exit('2');
 }
 
